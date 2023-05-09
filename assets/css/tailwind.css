@@ -68,7 +68,7 @@ body {
 
 }
 
-.blue {
+/* .blue {
   background: var(--blue);
 }
 .blue-80 {
@@ -98,10 +98,25 @@ body {
 .twilight {
   background: var(--twilight);
 }
+ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 120px;
+}
 
 main {
   background-color: var(--darkblue-80) ;
   padding: 2em;
   border-radius: 10px;
-}
+  position: relative;
+  }
+  .screen-reader-only {
+    position: absolute;
+    width: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    white-space: nowrap;
+  }
 

@@ -2,7 +2,6 @@
   <div>
     <!-- section for selecting signs -->
     <section>
-      <h2 class="text-center text-4xl">Select your Sun, Moon, and Rising Signs</h2>
       <!-- grid - 3 cols, 1 for each sign. contains dropdown menu and results sections -->
       <div class="grid lg:grid-cols-3 md:gap-2 md:justify-between mt-3">
         

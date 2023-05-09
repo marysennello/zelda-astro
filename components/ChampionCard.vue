@@ -23,7 +23,7 @@
         </div>
 
          <!-- div for text for dropdown button -->
-        <div class="font-semibold italic text-xl text-[--grass] border border-[--grass] rounded-lg p-5 text-center">
+        <div class="font-semibold italic text-xl text-[--grass] border border-[--grass] rounded-lg p-5 mt-1 text-center ">
           <p>{{champion.element}} Sun Signs 
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-down inline ml-2" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -38,7 +38,7 @@
      h-0 peer-checked/drop:h-auto w-full overflow-hidden">
 
     <!-- flexbox for 3 signs -->
-      <div class="dropdown-content p-4 
+      <div class="dropdown-content
         flex flex-wrap justify-between lg:flex-nowrap">
 
         <!-- grid for each sign (name on top, img below) -->
@@ -91,7 +91,7 @@ export default {
               sunMonster : "Guardian Scout III"
             },
           },
-          description: 'Chief of the Gerudo, a natural leader, capable of manipulating lightening, and trouble containing her emotions, there is no doubt that Urbosa represents the Fire signs. duty, organization, urbosa\'s fury, fiercely loyal.',
+          description: 'Fire signs are active and enthusiastic. As Chief of the Gerudo, Urbosa is a natural leader, capable of manipulating lightening, and has trouble containing her emotions.  She values duty, organization, and is fiercely loyal to her people. Her power, \"Urbosa\'s Fury\", allows Link to send off a massive radius of electrical damage to all enemies in the vicinity. This powerful move can defeat many enemies in one strike and will leave them stunned should they survive. In astrology, fire signifies energy, aggressiveness, enthusiasm, and impulsiveness.',
         },
         {
           name: 'Daruk',
@@ -115,7 +115,7 @@ export default {
               sunMonster : "Black Moblin",
             },
           },
-          description: 'Daruk, and his race of Goron, are undeniably of the Earth. Their strength and resiliance strongly reverberate with Earth signs. Sometimes stubborn, looking for the bigger picture, and moving purposefully so as not to misstep or make a wrong decision are things you could say about both.',
+          description: 'Earth signs are practical and stable. Daruk, and his race of Goron, are undeniably of the Earth.  The Goron\'s strength and resiliance strongly reverberate with Earth signs. Sometimes stubborn, looking for the bigger picture, and moving purposefully so as not to misstep or make a wrong decision are things you could say about both. His power, \"Daruk\'s Protection\" creates a crystal barrier around Link when used, protecting  him from all attacks while up, as well as deflecting certain attacks back. In astrology, earth signifies practicality, conservatism, stability, and materialism. ',
         },
         {
           name: 'Revali',
@@ -139,7 +139,7 @@ export default {
               sunMonster : "Guardian Sky Watcher",
             },
           },
-          description: 'Air signs are often seen as intellectual and analytical, and Revali is exactly that. The weapons of the Rito are known for precision and distance, and Revali\'s personality matches the sometimes boastful and abrasive personalities of Air signs. Hide insecurities. "Coasting through life" "winging it" updraft to soar high in the air. his appearance is based on a bird of prey',
+          description: 'Air signs are intellectual and communicative. They are often seen as precise and analytical, and Revali is exactly that.   The weapons of the Rito are known for precision and distance, and Revali\'s personality matches the sometimes boastful and abrasive personalities of Air signs. He does not want to appear incapable or insecure. His power, \"Revali\'s Gale\", launches Link into the sky and creates an updraft that can be re-used until it disappears. In astrology, air signifies intellect, reason, and communication. ',
         },
         {
           name: 'Mipha',
@@ -163,7 +163,7 @@ export default {
               sunMonster : "Lizalfos",
             },
           },
-          description: 'Let\'s start with the obvious, ok? Mipha is the princess of the Zora, an aquatic race adept at swimming and thriving underwater.',
+          description: 'Water signs are emotional and intuitive. Aside from the obvious fact that Mipha is the princess of the Zora, an aquatic race adept at swimming and thriving underwater, there are other reasons that Mipha is our Water representative. She is the most soft spoken and gentle of the champions, and in flashbacks is shown as sentimental toward her past with Link. Her power, \"Mipha\'s Grace\", protects Link from death and recovers his health. In astrology, water signifies emotion, imagination, sensitivity, and spirituality.',
         },
       ], //end champions
     }
@@ -179,11 +179,10 @@ export default {
   }
   .champion-container, .dropdown-content {
     margin: 0.5em;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
-  .dropdown:hover  {
-    background-color: var(--greenblue)
-  }
+
   .champion-description {
     padding: 0 1em;
     align-items: flex-start;

@@ -1,9 +1,12 @@
 <template>
   <div class="card text-center ">
-    
+    <!-- Monster name -->
     <h3 class="font-bold capitalize monstername"> {{ monster.name }} </h3>
-    <img :src="monster.image" :alt="monster.name + ' monster thumb'" class="thumb">
-   
+    <!-- Img of monster -->
+    <div class="thumb lg:px-auto md:px-3 px-auto">
+      <img :src="monster.image" :alt="monster.name + ' monster thumb'" class="mx-auto">
+    </div>
+   <!-- link to details page for monster -->
     <NuxtLink :to="`/monsters/${monster.name}`">
       <p class="btn my-4">View Details</p>
       </NuxtLink>
@@ -17,6 +20,7 @@
 <style scoped>
   .thumb {
    margin: 0 auto;
+   
   }
   .monstername {
     margin: 1em auto;
@@ -28,5 +32,6 @@
   img {
     /*max-width: 500px;*/
     border-radius: 10px;
+    
   }
 </style>

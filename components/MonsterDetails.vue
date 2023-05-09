@@ -1,14 +1,23 @@
 <template>
-  <!-- <div class="card"> -->
+  <div class="card">
+    
     <!-- grid - left side image, right side content (lg-md)-->
-    <div class="grid md:grid-cols-2 gap-2 card content-center justify-center">
+    <div class="inline grid md:grid-cols-2 gap-2 content-center justify-center">
+    
+     
+        
+        
       <!-- image -->
       <div class="p-3 self-center">
+          <!-- back arrow -->
+        <NuxtLink to="/monsters">
+          <span class="material-symbols-outlined py-2 lg:px-5 px-2 mb-2 border border-[--grass] text-[--grass] rounded-md">arrow_back</span>
+        </NuxtLink> 
         <img :src="current.image" :alt="current.name + ' monster thumb'" class="mx-auto  ">
       </div>
       <!-- monster title, description, data -->
       <div class="p-3">
-        <h2 class="text-4xl my-7 capitalize">{{ current.name }}</h2>
+        <h2 class="text-4xl my-5 capitalize">{{ current.name }}</h2>
         <h3 class="font-bold border-b-2 mb-4 pb-2">Monster Description:</h3>
         <p class="mb-7">{{ current.description }}</p>
 
@@ -34,7 +43,7 @@
       </div>
     </div>
 
-  <!-- </div> -->
+  </div>
 </template>
 
 <script setup>
