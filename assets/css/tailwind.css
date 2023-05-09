@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #00a3da;
+  --blue-80: rgba(37, 150, 190, .8);
+  --darkblue: #071e26;
+  --darkblue-40: rgba( 7,30,38, .4);
+  --darkblue-80: rgba( 7,30,38, .8);
+  --olivegreen: #556B2F;
+  --earthbrown: #B99F65;
+  --darkbrown: #39291a;
+  --cream: #f5f4ec;
+  --greenblue: #014265;
+  --grass: #9fc184;
+  --skyblue: #b9d7d5;
+  --twilight: #565e79;
+
+  --font-header: 'IM Fell English', serif;
+  --font-header-old: 'Syne', sans-serif;
+  --font-header-sz: 44px;
+  --font-body: 'Inter', sans-serif;
+  --font-body-sz: 14px;
+  }
+
+body {
+  @apply 
+  bg-[--darkbrown] 
+  text-[--skyblue] 
+  bg-[url('../imgs-etc/stars-unsplash.jpg')] 
+  bg-cover 
+  bg-center 
+  bg-fixed ;
+}
+
+@layer components {
+  * {
+    font-family: var(--font-body);
+  }
+  
+
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-header);
+    color: var(--cream);
+    font-size: 2em;
+  }
+
+  .btn {
+    @apply 
+    bg-[--greenblue] 
+    text-[--grass] 
+    px-3 py-2 
+    rounded-md 
+    text-sm;
+  }
+
+  /*.card {
+    @apply 
+    p-3 
+    rounded-md 
+    bg-[--darkblue] 
+    shadow-md 
+    h-full 
+    text-[--cream];
+  }*/
+
+}
+
+.blue {
+  background: var(--blue);
+}
+.blue-80 {
+  background: var(--blue-80);
+}
+.darkblue {
+  background: var(--darkblue);
+}
+.olivegreen {
+  background: var(--olivegreen);
+}
+.earthbrown {
+  background: var(--earthbrown);
+}
+.cream {
+  background: var(--cream);
+}
+.greenblue {
+  background: var(--greenblue);
+}
+.grass {
+  background: var(--grass);
+}
+.skyblue {
+  background: var(--skyblue);
+}
+.twilight {
+  background: var(--twilight);
+}
+
+main {
+  background-color: var(--darkblue-80) ;
+  padding: 2em;
+  border-radius: 10px;
+}
+
