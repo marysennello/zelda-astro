@@ -1,12 +1,9 @@
 <template>
   <div>
-    <header class="shadow-sm bg-[--darkblue]">
+    <header class="shadow-sm bg-[--darkblue] rounded-b-3xl shadow-md shadow-[--greenblue]">
       <NuxtLink to="/" class="">
         <h1 class="text-4xl mx-10 pt-6">Zelda: Breath of the Wild Astrology</h1>
       </NuxtLink>
-      <nav class="container mx-auto py-5 px-5 flex justify-between">
-         <NuxtLink to="/monsters" class="text-2xl"><h2>Monster List</h2></NuxtLink>
-      </nav>
     </header>
 
     <!-- output the page content -->
@@ -23,12 +20,16 @@
           <NuxtLink to="/elements">Elements</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/monsters">Monsters</NuxtLink>
+          <NuxtLink to="/about">About</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/equipment">Equipment</NuxtLink>
+          <NuxtLink to="/monsters">Monsters</NuxtLink>
         </li>
+        <!-- <li>
+          <NuxtLink to="/equipment">Equipment</NuxtLink>
+        </li> -->
       </ul>
+      <p>Mary Sennello 2023</p>
     </footer>
   </div>
 </template>
