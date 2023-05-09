@@ -1,6 +1,8 @@
 <template>
   <div>
-    <AboutSection />
+    <main>
+      <AboutSection />
+    </main>
   </div>
 </template>
 

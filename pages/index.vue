@@ -1,8 +1,15 @@
 <template>
-  <div >
+  <div>
     <main>
-      <AstroSection  class="z-1"></AstroSection>
-
+      <section>
+        <h2 class="text-center mb-5">Select your Sun, Moon, and Rising Signs</h2>
+        <div class="flex justify-center">
+          <a href="https://alabe.com/freechart/default.asp" target="_blank" rel="noopener noreferrer" class="inline bg-[--greenblue] text-[--skyblue] rounded-md py-3 px-5 m-auto">I don't know mine! <span class="screen-reader-only">(opens in a new tab)</span></a>
+        </div>
+      </section>
+      <section>
+        <AstroSection />
+      </section>
     </main>
   </div>
 </template>
@@ -18,7 +25,7 @@ export default {
 
 <style scoped>
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 p {
   margin: 20px 0;

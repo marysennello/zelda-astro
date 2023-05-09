@@ -1,19 +1,24 @@
 <template>
   <div>
     <main>
-      <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-5 container">
-        <div v-for="entry in entriesArray" :style="{ 'order': entry.id}" >
-          <MonsterCard :monster="entry" />
+      <section>
+        <h2 class="text-center mb-5">Complete Monster Catalog</h2>
+      </section>
+      <section>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-5 container">
+          <div v-for="entry in entriesArray" :style="{ 'order': entry.id}" >
+            <MonsterCard :monster="entry" />
+          </div>
         </div>
-      </div>
+      </section>
     </main>
   </div>
 </template>
 
 <script setup>
-  definePageMeta({
-    layout: 'monsters',
-  })
+  // definePageMeta({
+  //   layout: 'monsters',
+  // })
 
   //fetch entries
   const { data: entries } = await useFetch('https://botw-compendium.herokuapp.com/api/v2/category/monsters')

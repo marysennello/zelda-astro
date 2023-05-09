@@ -13,7 +13,8 @@ export default defineNuxtConfig({
       ],
       link: [
         //material symbols
-        {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined'},
+        {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'},
+         
         //google fonts
         {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Inter:wght@400;600&family=Syne:wght@400;700&display=swap'},
         
