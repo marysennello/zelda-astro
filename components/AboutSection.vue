@@ -4,7 +4,7 @@
     <h2>About This Project</h2>
     <p>First - I want to attribute ALL astrological explanations and insights to Joanna Martine Woolfolk's book,  <a href="https://a.co/d/0rDoknD" target="_blank" rel="noopener noreferrer">The Only Astrology Book You'll Ever Need <span class="screen-reader-only">(link opens in a new tab)</span></a> (2012). All of the astrological descriptions used in this project come from her book, and I couldn't have created this project without it.</p>
     <p>
-      This site started as a an assignment for my HTML300 Javascript and Advanced CSS course, where the main requirement was use of an API of my choice. I wanted to come up with something that would be both fun to make, and also have enough substance to keep me from running out of content ideas.
+      This site started as an assignment for my HTML300 Javascript and Advanced CSS course, where the main requirement was use of an API of my choice. I wanted to come up with something that would be both fun to make, and also have enough substance to keep me from running out of content ideas.
     </p>
     <p>
       I found a <a href="https://gadhagod.github.io/Hyrule-Compendium-API/#/" target="_blank" rel="noopener noreferrer">Hyrule Compendium API by Aarav Borthakur <span class="screen-reader-only">(link opens in a new tab)</span> </a> listed in a GitHub Repo of public APIs.  I looked into a few others that interested me, but none of them sparked as much inspiration as this one. I had recently finished playing Breath of the Wild, and I've always enjoyed Twitter threads and Instagram posts designating characters, images, etc to the astrological signs. They are a lighthearted and fun way to view ourselves and others through a new lens. </p>

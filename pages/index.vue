@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main>
+    <main class="px-0 md:px-3">
       <section>
         <h2 class="text-center mb-5">Select your Sun, Moon, and Rising Signs</h2>
         <div class="flex justify-center">

@@ -34,11 +34,11 @@ body {
   bg-fixed ;
 }
 
+
 @layer components {
   * {
     font-family: var(--font-body);
   }
-  
 
 
   h1, h2, h3, h4, h5 {
@@ -108,7 +108,8 @@ header {
 
 main {
   background-color: var(--darkblue-80) ;
-  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   border-radius: 10px;
   position: relative;
   }

@@ -31,9 +31,10 @@
     </header>
 
     <!-- output the page content -->
-    <div class="container mx-auto p-4 ">
+    <div class="container mx-auto p-1 flex justify-center">
       <slot class="relative z-1"/>
     </div>
+
     <footer class="bg-[--darkblue-80] p-5 rounded-t-3xl">
       <section class="text-center">
         <h2>Information</h2>
