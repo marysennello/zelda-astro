@@ -326,15 +326,15 @@ export default {
           zeldaRisingDetail : "This low-level gel monster is engulfed in freezing-cold air. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised.",
         },
         "Unknown":{
-          name : "??",
-          sunImg : Star,
-          sunMonster : "??",
+          
+          sunImg : "https://botw-compendium.herokuapp.com/api/v2/entry/sunshroom/image",
+          
           sunDetail : "The sign that the Sun was traveling through at the time of your birth is your Sun sign. The Sun is the most important and pervasive influence in your horoscope, and in may ways determines how others see you. An analogy is that your horoscope is a painting of you. The characteristics of your Sun sign are the broad strokes that the artist first lays down on the canvas.  ",
-          moonImg : Star,
-          moonMonster : "??",
+          moonImg : "https://botw-compendium.herokuapp.com/api/v2/entry/silent_shroom/image",
+          
           moonDetail : "The position of the Moon in your horoscope is second only in importance to the position of the Sun. The sun sign is the part of you that is most apparent on the surface; it is what others see. The Moon sign is the part of you that you see. In astrology the Moon stands for emotions, instincts, the unconscious. Whereas the Sun represents your will, the Moon represents your instinctive reactions.",
-          risingImg : Star,
-          risingMonster :"??",
+          risingImg : "https://botw-compendium.herokuapp.com/api/v2/entry/ironshroom/image",
+          
           risingDetail : "Your Ascendant or Rising sign (the terms are interchangeable) is a very important part of your horoscope. Your ascendant is the sign that reflects your outward demeanor and to a great extent determines how the outside world looks at you. Your Ascendant is the sign that was rising over the eastern horizon at the time of your birth (hence, your Rising sign)."
 
         }

@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 h2 {
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 p {
   margin: 20px 0;

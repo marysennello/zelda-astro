@@ -12,6 +12,7 @@
   --earthbrown: #B99F65;
   --darkbrown: #39291a;
   --cream: #f5f4ec;
+  --cottoncandy: #ddf4f4;
   --greenblue: #014265;
   --grass: #9fc184;
   --skyblue: #b9d7d5;
@@ -22,6 +23,7 @@
   --font-header-sz: 44px;
   --font-body: 'Inter', sans-serif;
   --font-body-sz: 14px;
+
   }
 
 body {
@@ -43,8 +45,19 @@ body {
 
   h1, h2, h3, h4, h5 {
     font-family: var(--font-header);
-    color: var(--cream);
     font-size: 2em;
+  }
+  h1 {
+    color: var(--cream);
+    text-shadow: #00a3da 1px 0 10px;
+  }
+  h2  {
+    color: var(--grass);
+    text-shadow: #556B2F 1px 0 7px;
+  }
+  h3, h4, h5 {
+    color: var(--skyblue);
+    text-shadow: #00a3da 1px 0 6px;
   }
 
   .btn {

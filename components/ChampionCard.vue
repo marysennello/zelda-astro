@@ -17,14 +17,14 @@
       <div class="champion-description sm:basis-full flex flex-wrap content-between">
         <!-- div for details -->
         <div>
-          <h2>{{champion.element}} Sign Rep: {{champion.name}}  </h2>
-          <h3>{{champion.signs}}</h3>
+          <h3 class="text-3xl">{{champion.element}} Sign Rep: {{champion.name}}  </h3>
+          <h3 class="text-2xl text-[--cottoncandy]">{{champion.signs}}</h3>
           <p class="text-left">{{champion.description}}</p>
         </div>
 
          <!-- div for text for dropdown button -->
         <div class="font-semibold italic text-xl text-[--grass] border border-[--grass] rounded-lg p-5 mt-1 text-center ">
-          <p>{{champion.element}} Sun Signs 
+          <p>{{champion.element}} Signs 
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-down inline ml-2" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           </svg></p>
@@ -44,7 +44,7 @@
         <!-- grid for each sign (name on top, img below) -->
           <div v-for="sign in champion.dropdown" class="block sm:basis-full grid grid-cols-1 gap-5 justify-items-center content-center p-5 m-5">
 
-            <h4>{{ sign.name }} Sun</h4>
+            <h4 class="text-2xl text-[--cottoncandy]">{{ sign.name }} Sun</h4>
             <img :src="'https://botw-compendium.herokuapp.com/api/v2/entry/'+ sign.sunImg +'/image'" :alt="sign.name" class="object-contain ">
           </div>
         
