@@ -120,7 +120,7 @@ export default {
           name : "Aries",
           sunImg : "fire-breath_lizalfos",
           sunMonster : "Fire-Breath Lizalfos",
-          sunDetail : "Aries is active, energetic, excitable and impulsive, optimistic, open to change and new experiences. There is a dynamic restlessness to the Aries character. When others first meet you their instant impression is of someone exciting, vibrant, talkative. A an Aries person you gravitate toward the center of action. You are audacious and intent on getting your own way. Since your nature is to express power, you treat opposition as an annoyance to be brushed out of the way. You are a natural leader who exudes self-confidence.",
+          sunDetail : "Aries is active, energetic, excitable and impulsive, optimistic, open to change and new experiences. There is a dynamic restlessness to the Aries character. When others first meet you their instant impression is of someone exciting, vibrant, talkative. As an Aries person you gravitate toward the center of action. You are audacious and intent on getting your own way. Since your nature is to express power, you treat opposition as an annoyance to be brushed out of the way. You are a natural leader who exudes self-confidence.",
           zeldaSunDetail : "These quick-witted, lizard-like monsters can be found all over Hyrule. Their fiery breath makes them pretty dangerous, but exposure to cold will kill them instantly. They mainly make their homes in volcanic areas but have also been sighted in the Akkala region.",
 
           moonImg : "fire_keese",
@@ -131,7 +131,7 @@ export default {
 
           risingImg : "silver_bokoblin",
           risingMonster : "Silver Bokoblin",
-          risingDetail: "Aries is a very strong ascendent. You like to take on the role of a leader, even if the leadership is in a small area. As an Aries Ascendent person you have strong likes and dislikes and are never shy about expressing them. Your dealings are straightforward and honest. There is a contagious enthusiasm about you. Sometimes Rising-Aries people have a reputation as troublemakers. As far as you're concerned, obstacles are just there to be butted down. However, if the obstacle own't move you won't butt your head off. You will quickly lose interest and bound off to find a new challenge, further excitement.",
+          risingDetail: "Aries is a very strong ascendent. You like to take on the role of a leader, even if the leadership is in a small area. As an Aries Ascendent person you have strong likes and dislikes and are never shy about expressing them. Your dealings are straightforward and honest. There is a contagious enthusiasm about you. Sometimes Rising-Aries people have a reputation as troublemakers. As far as you're concerned, obstacles are just there to be butted down. However, if the obstacle won't move you won't butt your head off. You will quickly lose interest and bound off to find a new challenge, further excitement.",
           zeldaRisingDetail : "You would be foolish to call these Silver Bokoblins a mere nuisance. They have been influenced by Ganon's fiendish magic, so they are stronger than even the Black Bokoblins. They're called \"silver\" not only because of their coloring but also to denote their rarity. The purple markings help them to stand out even more.",
         },
         "Taurus": {
@@ -179,12 +179,12 @@ export default {
           
           moonImg : "treasure_octorok",
           moonMonster : "Treasure Octorok",
-          moonDetail : "The romantic, intuitive sign of cancer and the sensuous, receptive Moon are in harmony with each other. If you have the Moon in Cancer you have strong emotions and perceive the world around you through your feelings rather your intellect. You tend to let your feelings fester, and indeed, touchiness, moodiness, and a kind of quiet self-pity always lie near the surface. No matter what your Sun sign may be, the cancer Moon qualities of creativity and emotionalism will be evident in your personality. ",
+          moonDetail : "The romantic, intuitive sign of Cancer and the sensuous, receptive Moon are in harmony with each other. If you have the Moon in Cancer you have strong emotions and perceive the world around you through your feelings rather your intellect. You tend to let your feelings fester, and indeed, touchiness, moodiness, and a kind of quiet self-pity always lie near the surface. No matter what your Sun sign may be, the Cancer Moon qualities of creativity and emotionalism will be evident in your personality. ",
           zeldaMoonDetail : "These particularly clever monsters bury themselves in deep sand or snow and disguise themselves as treasure chests. Anyone who approaches the chests is attacked. The treasures chests are not magnetic, which proves that they are actually a part of these monsters' bodies.",
 
           risingImg : "ice-breath_lizalfos",
           risingMonster : "Ice-Breath Lizalfos",
-          risingDetail: "If you have Cancer rising, you are very sensitive to emotional signals from other people. You have extraordinary insight into human motivation. There is a reserve about you that is sometimes difficult to penetrate, but underneath is a warm, affectionate, loving, and giving nature. Your sensitivities are so heightened that you sometimes take offense where none was intended. However, this sam e sensitivity is what sets you apart from the crowd. Many Cancer Ascendants are extraordinarily gifted as writers, poets, and painters. You won't hog the spotlight, but on the other hand you want public recognition for your talents.",
+          risingDetail: "If you have Cancer rising, you are very sensitive to emotional signals from other people. You have extraordinary insight into human motivation. There is a reserve about you that is sometimes difficult to penetrate, but underneath is a warm, affectionate, loving, and giving nature. Your sensitivities are so heightened that you sometimes take offense where none was intended. However, this same sensitivity is what sets you apart from the crowd. Many Cancer Ascendants are extraordinarily gifted as writers, poets, and painters. You won't hog the spotlight, but on the other hand you want public recognition for your talents.",
           zeldaRisingDetail : "These quick-witted, lizard-like monsters can be found all over Hyrule. The balls of ice they spit make them particularly troublesome, but exposure to fire will kill them instantly. Their homes are mainly on snowy mountains.",
           
         },
@@ -260,8 +260,8 @@ export default {
           name : "Sagittarius",
           sunImg : "guardian_scout_iii",
           sunMonster : "Guardian Scout III",
-          sunDetail : "Sagittarius is energetic, ambitious, generous, freedom-loving, and a seeker of challenge, open ot new ideas and exploration. Astrologers say you have the gift of providence - luck protects you. You are too interested in what is going to happen tomorrow to fret long about what went wrong today. You are always sure that around the next bend of the road something wonderful is about to happen. In the zodiac, Sagittarius symbolizes the search for wisdom; this is the sign of the philosopher and the explorer.",
-          zeldaSunDetail  : "Although originally designed by an ancient civilization to combat Ganon, these scaled-down Guardians were placed inside shrines as part or the trials. This model is equipped with twin-blade functionality to further test the combat prowess of one undertaking the trials. It takes a nimble fighter to overcome this one.",
+          sunDetail : "Sagittarius is energetic, ambitious, generous, freedom-loving, and a seeker of challenge, open to new ideas and exploration. Astrologers say you have the gift of providence - luck protects you. You are too interested in what is going to happen tomorrow to fret long about what went wrong today. You are always sure that around the next bend of the road something wonderful is about to happen. In the zodiac, Sagittarius symbolizes the search for wisdom; this is the sign of the philosopher and the explorer.",
+          zeldaSunDetail  : "Although originally designed by an ancient civilization to combat Ganon, these scaled-down Guardians were placed inside shrines as part of the trials. This model is equipped with twin-blade functionality to further test the combat prowess of one undertaking the trials. It takes a nimble fighter to overcome this one.",
 
           moonImg : "guardian_scout_i",
           moonMonster : "Guardian Scout",
@@ -271,14 +271,14 @@ export default {
 
           risingImg : "silver_lizalfos",
           risingMonster : "Silver Lizalfos",
-          risingDetail: "A Sagittarius Ascendant favors independence and freedom. You are progressive, full of optimism about the future. you are also restless in spirit, anxious to get on with the business of living, ready to accept a new challenge. You have a knack for making friends, for you are very open to new people and new ideas. One of your problems is that you don't measure the consequences of what you do. You are impulsive, sometimes reckless. To take action is the main thing, to do something about a problem. You often make sweeping gestures with your arms and hands, and have a strong, active body.",
+          risingDetail: "A Sagittarius Ascendant favors independence and freedom. You are progressive, full of optimism about the future. You are also restless in spirit, anxious to get on with the business of living, ready to accept a new challenge. You have a knack for making friends, for you are very open to new people and new ideas. One of your problems is that you don't measure the consequences of what you do. You are impulsive, sometimes reckless. To take action is the main thing, to do something about a problem. You often make sweeping gestures with your arms and hands, and have a strong, active body.",
           zeldaRisingDetail : "These Lizalfos have been influenced by Ganon's fiendish magic to become the strongest Lizalfos of all. They're called \"silver\" for their unique coloring and also to denote their rarity. Their purple pattern makes them even more distinct.",
         },
         "Capricorn":{
           name : "Capricorn",
           sunImg : "black_moblin",
           sunMonster : "Black Moblin",
-          sunDetail : "Capricorn is reserved, prudent, patient, uses strategy instead of force, seeks security, is acquisitive, disciplined, determined, and quick to seize opportunity. Your motivating force is desire for success, money, status, position, authority, and  (though you may not realize it) for love. Capricorn is both an earth sign and a cardinal sign, and the combination of practicality (earth) and initiative (cardinal) produces a personality geared toward leadership and power. one of the hallmarks of your sign is that you learn to wait for things you want. You are willing to give up today's temptation for tomorrow's reward.",
+          sunDetail : "Capricorn is reserved, prudent, patient, uses strategy instead of force, seeks security, is acquisitive, disciplined, determined, and quick to seize opportunity. Your motivating force is desire for success, money, status, position, authority, and (though you may not realize it) for love. Capricorn is both an earth sign and a cardinal sign, and the combination of practicality (earth) and initiative (cardinal) produces a personality geared toward leadership and power. One of the hallmarks of your sign is that you learn to wait for things you want. You are willing to give up today's temptation for tomorrow's reward.",
           zeldaSunDetail  : "These heavyweight monsters can be found all over Hyrule and are among the most dangerous types of Moblin. They're extremely resilient and are often armed with some of the strongest weapons Moblins can carry.",
 
           moonImg : "stone_talus",
@@ -288,7 +288,7 @@ export default {
 
           risingImg : "guardian_turret",
           risingMonster : "Guardian Turret",
-          risingDetail: "If you have Capricorn ascending, you tend to have a serious turn of mind. Cautious in your dealings, you are reluctant to commit yourself until you know the score. Capricorn Ascendants have strong personalities, possess great willpower and determination, and diligently pursue their goals. You have self-esteem and are reliable, dependable, and stable. Sometimes though, you will strive toward a goal and when you achieve it will still not be happy. You have an active mind with quick intelligence and an ability to concentrate. You tend to fuss over details to make sure all contingencies have been covered. It is your wany of being in control- you don't want bad luck to catch you unprepared.",
+          risingDetail: "If you have Capricorn ascending, you tend to have a serious turn of mind. Cautious in your dealings, you are reluctant to commit yourself until you know the score. Capricorn Ascendants have strong personalities, possess great willpower and determination, and diligently pursue their goals. You have self-esteem and are reliable, dependable, and stable. Sometimes though, you will strive toward a goal and when you achieve it will still not be happy. You have an active mind with quick intelligence and an ability to concentrate. You tend to fuss over details to make sure all contingencies have been covered. It is your wany of being in control - you don't want bad luck to catch you unprepared.",
           zeldaRisingDetail : "The Sheikah of ancient Hyrule developed this as a weapon to combat Ganon. This stationary model was used for defending important structures. Its offensive power is on par with other Guardians, and omitting the legs kept the manufacturing costs low.",
         },
         "Aquarius":{

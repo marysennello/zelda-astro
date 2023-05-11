@@ -28,8 +28,9 @@
         <!-- <li>
           <NuxtLink to="/equipment">Equipment</NuxtLink>
         </li> -->
+        <li>Mary Sennello 2023</li>
       </ul>
-      <p>Mary Sennello 2023</p>
+      <!-- <p>Mary Sennello 2023</p> -->
     </footer>
   </div>
 </template>
