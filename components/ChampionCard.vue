@@ -73,7 +73,7 @@ export default {
           name: 'Urbosa',
           url : Urbosa,
           element: 'Fire',
-          signs: 'Aries, Leo, Sagitarius',
+          signs: 'Aries, Leo, Sagittarius',
           dropdown: {
             "Aries": {
               name : "Aries",
