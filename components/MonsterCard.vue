@@ -1,8 +1,10 @@
 <template>
-  <div class="card flex sm:flex-nowrap md:flex-wrap md:text-center justify-end md:justify-center justify-items-start items-center">
+  <div class="card flex w-full
+  sm:flex-nowrap justify-end justify-items-start items-center
+  md:flex-wrap md:text-center md:justify-center">
     <!-- Monster name -->
 
-    <h3 class="justify-self-start font-bold capitalize monstername truncate"> {{ monster.name }} </h3>
+    <h3 class="justify-self-start font-bold capitalize monstername truncate "> {{ monster.name }} </h3>
 
     <!-- Img of monster (mini on mobile) -->
     <div class="thumb lg:px-auto md:px-3 px-auto">
@@ -19,12 +21,12 @@
       </NuxtLink>
 
       <!-- link to details page for monster - mobile friendly, hidden on desktop -->
-      <NuxtLink :to="`/monsters/${monster.name}`" class="inline md:hidden px-10">
-        <p class="my-1 md:hidden inline ]">
+      <NuxtLink :to="`/monsters/${monster.name}`" class="inline md:hidden mx-2">
+        <!-- <p class="my-1 md:hidden inline ]"> -->
           <span class="material-symbols-outlined inline">
             arrow_forward
             </span>
-        </p>
+        <!-- </p> -->
       </NuxtLink>
   </div>
 </template>

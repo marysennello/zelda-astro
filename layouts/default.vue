@@ -31,7 +31,7 @@
     </header>
 
     <!-- output the page content -->
-    <div class="container mx-auto p-1 flex justify-center">
+    <div class="flex justify-center w-screen">
       <slot class="relative z-1"/>
     </div>
 

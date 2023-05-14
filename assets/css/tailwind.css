@@ -40,6 +40,7 @@ body {
 @layer components {
   * {
     font-family: var(--font-body);
+    box-sizing: border-box;
   }
 
 
@@ -80,38 +81,6 @@ body {
   }*/
 
 }
-
-/* .blue {
-  background: var(--blue);
-}
-.blue-80 {
-  background: var(--blue-80);
-}
-.darkblue {
-  background: var(--darkblue);
-}
-.olivegreen {
-  background: var(--olivegreen);
-}
-.earthbrown {
-  background: var(--earthbrown);
-}
-.cream {
-  background: var(--cream);
-}
-.greenblue {
-  background: var(--greenblue);
-}
-.grass {
-  background: var(--grass);
-}
-.skyblue {
-  background: var(--skyblue);
-}
-.twilight {
-  background: var(--twilight);
-}
- */
 header {
   position: sticky;
   top: 0;

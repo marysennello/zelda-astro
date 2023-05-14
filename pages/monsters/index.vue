@@ -5,8 +5,8 @@
         <h2 class="text-center mb-5">Complete Monster Catalog</h2>
       </section>
       <section>
-        <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-5 container">
-          <div v-for="entry in entriesArray" :style="{ 'order': entry.id}" >
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 container ">
+          <div v-for="entry in entriesArray" :style="{ 'order': entry.id}" class="justify-self-stretch">
             <MonsterCard :monster="entry" />
           </div>
         </div>
